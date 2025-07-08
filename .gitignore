@@ -1,0 +1,70 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+
+# SwiftPM
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# App data
+*.moved-aside
+*.swp
+*.lock
+*.xcconfig.local
+
+# Supabase
+supabase/.env
+supabase/.env.local
+supabase/.env.*.local
+
+# Environment config
+*.xcconfig.local
+.env
+.env.*
+
+# User-specific
+*.orig
+*.rej
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+.vscode/
+
+# Supporting/Config
+Supporting/Config/Development.xcconfig
+Supporting/Config/Production.xcconfig
